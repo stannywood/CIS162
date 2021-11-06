@@ -1,0 +1,55 @@
+/*  About Me Style Sheet
+	Author: Stanley Valle
+	Date: 2021-11-03
+    Filename: about_layout.css
+*/
+
+/* HTML & Body Styles */
+
+
+body {
+	background-color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height: 1.25;
+    margin:auto;
+	padding: 10px 10px 10px 10px; 
+    width: 97%;
+    
+}
+
+/* Heading Styles */
+
+header h1, h2{
+	background-color: #ebebe0;
+	color: #90c;
+    letter-spacing: 7px;
+}
+
+h2 {
+	font-size: 25px;
+}
+section {
+    font-size: 16px;
+    background-color: #e6e6e6;
+    color: #0;
+   
+   
+}
+nav > ul {
+	line-height:1.75em;
+}
+ul, ol {
+	list-style-type: disc;
+   
+}
+/*padding paragraph a tad bit to get away from the margins*/
+p {
+    padding:0px 10px;
+}
+/*making the "last update" font bold and a slightly different color from the rest of the page*/
+footer {
+	color:#6b6b66;
+    font-weight: bold;
+    background-color: #ebebe0;
+}
+
